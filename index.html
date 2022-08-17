@@ -5,8 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="Harvey" content="width=device-width, initial-scale=1.0">
     <title>Chamber of Commerce Carmona</title>
-
+    <script>
+    function housefunction() {
+        let house = document.getElementById("houseI").innerHTML;
+        let enterhouse;
+        if (house == enter ) {
+            enterhouse == "Welcome to the house";
+            console.log(enterhouse);
+    }   
+        else if (house == knock) {
+                enterhouse == "Wait a minute";
+    }
+        else {
+            enterhouse == "No one is home";
+        }
+        document.getElementById("houseid").innerHTML = enterhouse;
+        
+    }
+    
+    
+    
+    </script>
 </head>
+
 
 <body>
   
@@ -52,9 +73,9 @@
 <div>
     <div id="now"></div>
 </div>
-<div >
-<p>What do you want to do: <input type="text" id="house-input" size="3"></p>
- <button type="button" onclick="housefunction()"> Click this</button>
+<div>
+<p>What do you want to do: <input type="text" id="houseI" size="3"></p>
+ <button type="button" onclick="housefunction"> Click this</button>
 </div>
 <div id="houseid"></div>
 
@@ -64,6 +85,6 @@
 <script src="/js/main.js"></script>
 <script src="/js/main-2.js"></script>
 <script src="/js/weather.js"></script>
-<script src="/js/ifstate.js"></script>
+
 
 </html>

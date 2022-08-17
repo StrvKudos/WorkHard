@@ -1,0 +1,176 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    max-width:600px;
+    
+}
+body {
+    background-color: #bbb;
+    padding: 0;
+    margin: 0;
+}
+
+/*header***************/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+}
+/*https://www.philippinechamber.com/about-us*/
+header {
+    background-color: #fff;
+    padding: 5px 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:20px;
+}
+.head-container{
+    max-width:500px;
+    display:grid;
+    grid-template-columns:100px 400px;
+    column-gap:0px;
+    margin-left:50px;
+}
+
+.head-1 {
+    display: flex;
+    flex-direction: column;
+    font-family: Stoke, sans-serif, 'Times New Roman';
+   
+}
+
+.head-1 h1  {
+    font-size: 30px;
+    margin: 0 0 0 1px;
+    text-align:left;
+    
+    
+}
+.head-1 q  {
+    text-align:left;
+    margin-left:5px;
+    margin-top:0px;
+    
+    
+}
+
+/* NAVIGATION********/
+nav {
+    font-family: Kanit, sans-serif, monospace;
+    background-color:rgb(0, 0, 0 ,.9);
+    width:100%;
+    padding-left:10px;
+
+}
+nav div{
+    display:flex;
+    justify-content:flex-end;
+    flex-direction:row;
+    align-items: center;
+    padding-right:2px;
+    margin-bottom:-15px;}
+.bot li {
+    flex-basis:80px;
+    justify-items:right;
+    padding-left:50px;
+    font-family: Noto Sans, serif, 'Times New Roman';
+    color:rgb(255, 255, 255);
+    
+   
+
+}
+nav button {
+    margin: .2rem 2%;
+    border: none;
+    font-size: 1.6rem;
+    padding-left:5px;
+    background-color:#bbb;
+   
+    
+}
+
+
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: Noto Sans, serif, 'Times New Roman';
+   
+
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 0px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+	font-size: 0.95rem;
+	background: linear-gradient(90deg, transparent, yellow, transparent) bottom /
+		var(--d, 0) 3px no-repeat;
+	transition: 0.5s;
+    text-align:center;
+    
+}
+
+.one {
+    color: black;
+}
+
+nav ul li a:hover {
+    --d: 75%;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+nav .open {
+    display: none;
+}
+
+span:nth-child(1){
+    display:block;}
+    span:nth-child(2){
+        display:none;
+    }
+
+.open span:nth-child(1){
+    display:none;}
+.open span:nth-child(2){
+    display:block;}
+
+div {
+    margin-top:0px;
+    text-align:center;
+    font-size:21px;
+    font-family:Lobster, sans-serif, 'Times New Roman';
+    list-style-type: none;
+}
+
+
+.pop {
+    margin-top:0px;
+    text-align:center;
+    font-size:21px;
+    background-color:blue;
+    font-family:Lobster, sans-serif, 'Times New Roman';
+    overflow: auto;
+}
+/*Categories*/
+div .directory-grid {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width:600px;
+}
+div img {
+    height:300px;
+    width:150px;
+}
