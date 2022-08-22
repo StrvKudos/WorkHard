@@ -11,21 +11,21 @@ fetch(requestURL)
 
         let card = document.createElement('div');
 
-        let h2 = document.createElement('h2');       
-        let c_info = document.createElement("p");
+        let h6 = document.createElement('h6');       
+        let c_info = document.createElement("h4");
         let c_link = document.createElement("button");
         let image = document.createElement("img");
 
-        h2.textContent = companies[i].name;
-        c_info.textContent = companies[i].contact_info;
+        h6.textContent = companies[i].name;
+        c_info.textContent = companies[i].price;
 
         c_link.textContent = "Add to Cart";
         c_link.setAttribute("onclick", "window.open('" + companies[i].link + "', '_blank')"); 
-
+        c_link.setAttribute("class", "addcart")
 
         image.setAttribute('src', companies[i].logo); // pasted content
         card.appendChild(image);
-        card.appendChild(h2);
+        card.appendChild(h6);
         card.appendChild(c_info);
         card.appendChild(c_link);
       

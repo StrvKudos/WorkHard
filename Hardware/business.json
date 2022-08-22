@@ -1,45 +1,45 @@
 {
     "main": [
         {
-            "name" : "Jolibee",
-            "contact_info" : "We excel in providing great tasting food that meets local preferences better than anyone. We provide superior dining experience, through FSC (Food, Service, Cleanliness) excellence in every encounter.",
+            "name" : "LED BULB 8W",
+            "price" : "Price: P100",
             "logo" : "../Hardware/camping.jpg",
             "link" : "https://www.jollibee.com.ph/vision-and-mission/"
         },
 
         {
             "name" : "The Borough",
-            "contact_info" : "The Philippines' favorite Pizza parlor.",
+            "price" : "Price: P100",
             "logo" : "../Hardware/camping.jpg",
             "link" : "https://www.facebook.com/theboroughpizza"
         },
         {
             "name" : "Mang Inasal",
-            "contact_info" : "To provide great tasting products and quality services to our customers with a great pinoy ambience fast food chain nationwide.",
+            "price" : "Price: P100",
             "logo" : "../Hardware/camping.jpg",
             "link" : "https://www.manginasal.com/"
         },
         {
             "name" : "Robinson Mall",
-            "contact_info" : "To be the supermarket of choice known for fresh and healthy food, clean hygienic stores, competitive prices and excellent customer service. To educate and empower its customers on their choice of food and products that promote healthy living.",
+            "price" : "Price: P100",
             "logo" : "../Hardware/camping.jpg",
             "link" : "https://www.robinsonsmalls.com/"
         },
         {
             "name" : "Talavera",
-            "contact_info" : "Talavera Group of Companies is one of the top growing company in Isabela. TGC is a company that will provide high quality services (lending, leasing, retail and others) to it's client. TGC is a single proprietorship, owned and manage by Mr. Gaudioso Talavera.",
+            "price" : "Price: P100",
             "logo" : "../Hardware/camping.jpg",
             "link" : "https://www.facebook.com/talavera.hrdcauayan/"
         },
         {
             "name" : "Angels Burger",
-            "contact_info" : "One of the biggest burger fastfood in the PH. You can see them in every city and its they offer a very cheap burger but very delicious",
+            "price" : "Price: P100",
             "logo" : "../Hardware/camping.jpg",
             "link" : "https://heavensburgerfranchise.weebly.com/"
         },
         {
             "name" : "Kultura",
-            "contact_info" : "Enterprise dedicated to the manufacturing, sale and instalation of water purifying plant equipment",
+            "price" : "Price: P100",
             "logo" : "../Hardware/camping.jpg",
             "link" : "https://www.kulturafilipino.com/"
         }
